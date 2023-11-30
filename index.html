@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google fonts:   
+    font-family: 'Alata', sans-serif;
+    font-family: 'Alef', sans-serif;
+    font-family: 'Arima Madurai', cursive;
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Patrick Hand', cursive;
+    font-family: 'PT Mono', monospace;
+    font-family: 'Ropa Sans', sans-serif;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Special Elite', cursive;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif; 
+    font-family: 'Courier Prime', monospace;
+    font-family: 'Princess Sofia', cursive;
+    font-family: 'Sofia', cursive;
+    -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- -->>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Merriweather&family=Open+Sans+Condensed:wght@300&family=Oswald&family=Playfair+Display&family=Roboto:wght@400;500&family=Alata&family=Alef:wght@400;700&family=Arima+Madurai&family=Balsamiq+Sans&family=Gloria+Hallelujah&family=Lobster+Two&family=PT+Mono&family=Patrick+Hand&family=Ropa+Sans&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Princess+Sofia&family=Sofia&family=Sacramento&family=Special+Elite&display=swap"
+        rel="stylesheet">
+
+    <title>gvandor site</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="img/" alt="">
+    </header>
+    <nav>
+        <a id="first" href="./index.html" target="_self">Kezdő lap</a>
+        <a href="pages/"></a>
+        <a href="pages/"></a>
+        <a href="pages/"></a>
+        <a href="pages/"></a>
+        <a href="pages/"></a>
+        <a href="pages/"></a>
+        <a href="pages/kapcsolat.html">Kapcsolat</a>
+    </nav>
+
+    <main>
+        <h1>Látogatók száma: <span id="visitor-count"></span></h1>
+        <blockquote>
+            <q>
+                Edward Edward király angol király <br> léptet fakó
+                lován <br> körötte csend amerre ment <br> s néma tartomány.
+            </q>
+        </blockquote>
+        <p> <s>Edward király angol király</s> H<sub>2</sub>O 5m<sup>3</sup>
+        <p title="Central Intelligence Agency"><i>CIA</i></p>
+        </p>
+        <p>
+            <label for="root">Disk usage root:</label>
+            <meter id="root" value="0.2" min="" max="">20 %</meter>
+            <br>
+
+            <label for="home">Disk usage home:</label>
+            <meter id="home" value="1" min="0" max="10" low="3" high="4"> %</meter>
+            <br>
+
+            <label for="download">Downloading progress:</label>
+            <progress id="download" value="" max="10">bakfitty</progress>
+        </p>
+        <button onclick="showContent()">
+            Show hidden content
+        </button>
+        <template>
+            <p>
+                tádám, megjelent a rejtett tartalom, <br> milyen ügyes vagyok!
+            </p>
+        </template>
+        <p>This is some <u class="spelling-error">mispeled</u> text.</p>
+        <form action="" id="barika"><br>
+            <label for="name">Név</label>
+            <input type="text" id="name" name="name" placeholder="Gipsz Jakab"> <br> <br>
+            <label for="pwd">Jelszó</label>
+            <input type="password" id="pwd" name="pwd" placeholder="kisbetű, nagybetű, szám"> <br> <br>
+
+            <label for="mail">Email cím</label>
+            <input type="email" id="mail" name="mail" placeholder="faszom@gmail.com"> <br> <br>
+            <button type="button" autofocus onclick="alert('Hello world!')">Elküld</button><br><br>
+            <button type="reset" form="barika">Töröl</button><br><br>
+
+            <label for="myFile">Válassz ki egy fájlt:</label>
+            <input type="file" id="myFile" name="myFile" multiple><br><br>
+            <button type="button" onclick="alert('most nem küldöm el')">
+                elküld</button>
+        </form>
+        <form action="">
+        <p title="nagyon hülye">NH</p>
+        <input type="image" src="img/dodo.gif" alt="submit button" 
+        onclick="alert('most nem küldöm el')" width="48" height="48">
+        <label for="bdaymonth">Birthday (month and year):</label>
+        <input type="date" id="bdaymonth" name="bdaymonth"> <br><br>
+        <label for="quantity">Érték megadás (12 - 240): </label>
+        <input type="number" id="quantity" min="12" max="240">
+        <input type="submit">
+        <br> <br>
+        <label for="mail">E-mail címed:</label>
+        <input type="email" id="mail" name="mail">
+        <br><br>
+        <label for="pwd">Jelszó:</label>
+        <input type="password" id="pwd" name="pwd" minlength="7">
+        <button type="submit">send</button>
+
+    </form>
+        
+
+
+
+
+
+
+
+    </main>
+
+    <p></p>
+
+    <footer></footer>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

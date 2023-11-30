@@ -1,0 +1,52 @@
+// A látogatók számának számolása
+
+var visitorCount = 0;
+
+// A látogatók számának növelése minden alkalommal, amikor valaki meglátogatja az oldalt
+
+window.onload = function() {
+  visitorCount++;
+};
+
+// A látogatók számának lekérése
+
+function getVisitorCount() {
+  return visitorCount;
+}
+
+Legyen körültekintő a kód használatakor. További információ.
+
+Ez a szkript egy visitorCount nevű globális változót használ a látogatók számának tárolására. A window.onload eseménykezelő függvény növeli a visitorCount változót minden alkalommal, amikor valaki meglátogatja az oldalt. A getVisitorCount() függvényt használhatod a látogatók számának lekéréséhez.
+
+Íme egy példa a szkript használatára:
+HTML
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <title>Látogatók száma</title>
+</head>
+<body>
+  <h1>Látogatók száma: <span id="visitor-count"></span></h1>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+Legyen körültekintő a kód használatakor. További információ.
+
+Ez az HTML kód egy visitor-count nevű ID-val rendelkező span elemet tartalmaz. A getVisitorCount() függvényt használod a látogatók számának lekéréséhez, és a span elembe helyezed.
+
+A következőképpen nézhet ki a szkript működése:
+
+Látogatók száma: 0
+
+[Egy látogató ellátogat az oldalra]
+
+Látogatók száma: 1
+
+[Egy másik látogató ellátogat az oldalra]
+
+Látogatók száma: 2
+
+Természetesen ezt a szkriptet a saját igényeidhez igazíthatod. Például hozzáadhatsz egy resetVisitorCount() függvényt a látogatók számának visszaállításához, vagy egy visitorCountByDate() függvényt a látogatók számának naponta történő lekérdezéséhez.
