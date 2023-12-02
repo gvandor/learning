@@ -107,29 +107,36 @@
                 elküld</button>
         </form>
         <form action="">
-        <p title="nagyon hülye">NH</p>
-        <input type="image" src="img/dodo.gif" alt="submit button" 
-        onclick="alert('most nem küldöm el')" width="48" height="48">
-        <label for="bdaymonth">Birthday (month and year):</label>
-        <input type="date" id="bdaymonth" name="bdaymonth"> <br><br>
-        <label for="quantity">Érték megadás (12 - 240): </label>
-        <input type="number" id="quantity" min="12" max="240">
-        <input type="submit">
-        <br> <br>
-       
+            <p title="nagyon hülye">NH</p>
+            <input type="image" src="img/dodo.gif" alt="submit button" onclick="alert('most nem küldöm el')" width="48"
+                height="48">
+            <label for="bdaymonth">Birthday (month and year):</label>
+            <input type="date" id="bdaymonth" name="bdaymonth"> <br><br>
+            <label for="quantity">Érték megadás (12 - 240): </label>
+            <input type="number" id="quantity" min="12" max="240">
+            <input type="submit" value="submit">
+            <br> <br>
 
-    </form>
-    <form action="" id="jelszo">
-        <label for="mail">E-mail címed:</label>
-        <input type="email" id="mail" name="mail">
-        <br><br>
-        <label for="pwd">Jelszó:</label>
-        <input type="password" id="pwd" name="pwd" minlength="7" 
-        placeholder="min. 12 karakter">
-        <button type="submit" >send</button>
-        <button type="reset" form="jelszo">reset</button>
-    </form>
-        
+
+        </form>
+        <form action="" id="jelszo">
+            <label for="mail">E-mail címed:</label>
+            <input type="email" id="mail" name="mail">
+            <br><br>
+            <label for="pwd">Jelszó:</label>
+            <input type="password" id="pwd" name="pwd" minlength="7" placeholder="min. 7 karakter">
+            <button type="submit">send</button>
+            <button type="reset" form="jelszo">reset</button>
+        </form>
+        <br>
+        <form action="">
+            <label for="age1">0 - 30</label>
+            <input type="radio" id="age1" name="age" value="30">
+            <br>
+            <input type="radio" name="age" id="age2" value="60">
+            <label for="age2">31 - 60</label>
+        </form>
+
 
 
 
