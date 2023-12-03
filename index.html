@@ -113,7 +113,7 @@
             <label for="bdaymonth">Birthday (month and year):</label>
             <input type="date" id="bdaymonth" name="bdaymonth"> <br><br>
             <label for="quantity">Érték megadás (12 - 240): </label>
-            <input type="number" id="quantity" min="12" max="240">
+            <input type="number" id="quantity" min="12" max="240" step="12">
             <input type="submit" value="submit">
             <br> <br>
 
@@ -135,6 +135,13 @@
             <br>
             <input type="radio" name="age" id="age2" value="60">
             <label for="age2">31 - 60</label>
+        </form>
+        <form action="">
+            <label for="vol">Pontok 0 és 12 között:</label>
+            <input type="range" id="vol" name="vol" min="0" max="12"
+            step="3">
+            <button type="reset" autofocus>töröl</button>
+
         </form>
 
 
